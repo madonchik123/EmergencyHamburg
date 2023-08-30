@@ -63,7 +63,7 @@ end)
 local Tab = Window:CreateTab("Tricks Axii - Perime", 4483362458)
 
 local Toggle = Tab:CreateToggle({
-    Name = "No car damage",
+    Name = "Машина Не Ломается",
     CurrentValue = false,
     Flag = "Toggle1",
     Callback = function(Value)
@@ -72,7 +72,7 @@ local Toggle = Tab:CreateToggle({
 })
 
 local Toggle = Tab:CreateToggle({
-    Name = "Unlimited Fuel",
+    Name = "Бесконечный Бензин",
     CurrentValue = false,
     Flag = "Toggle1",
     Callback = function(Value)
@@ -82,10 +82,10 @@ local Toggle = Tab:CreateToggle({
 
 
 local Slider = Tab:CreateSlider({
-    Name = "Car Acceleration Value",
+    Name = "Ускорение Машины",
     Range = {0, 10000},
     Increment = 1,
-    Suffix = "Acceleration value",
+    Suffix = "Ускорение",
     CurrentValue = 10,
     Flag = "Slider1",
     Callback = function(Value)
@@ -97,10 +97,10 @@ local Slider = Tab:CreateSlider({
 })
 
 local Slider = Tab:CreateSlider({
-    Name = "Maximum speed",
+    Name = "Максимальная Скорость",
     Range = {0, 10000},
     Increment = 1,
-    Suffix = "Speed",
+    Suffix = "Скорость",
     CurrentValue = 10,
     Flag = "Slider1",
     Callback = function(Value)
@@ -112,10 +112,10 @@ local Slider = Tab:CreateSlider({
 })
 
 local Slider = Tab:CreateSlider({
-    Name = "Backwards speed",
+    Name = "Скорость Задом",
     Range = {0, 10000},
     Increment = 1,
-    Suffix = "Speed",
+    Suffix = "Скорость",
     CurrentValue = 10,
     Flag = "Slider1",
     Callback = function(Value)
@@ -127,7 +127,7 @@ local Slider = Tab:CreateSlider({
 })
 
 local Toggle = Tab:CreateToggle({
-    Name = "always on (can get in when the car breaks down)",
+    Name = "Можно Заходить Даже если сломана",
     CurrentValue = false,
     Flag = "Toggle1",
     Callback = function(Value)
