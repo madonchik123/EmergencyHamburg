@@ -63,7 +63,7 @@ end)
 local Tab = Window:CreateTab("Hileler Axii - Perime", 4483362458)
 
 local Toggle = Tab:CreateToggle({
-    Name = "Araba hasarı yok",
+    Name = "No car damage",
     CurrentValue = false,
     Flag = "Toggle1",
     Callback = function(Value)
