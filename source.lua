@@ -60,7 +60,7 @@ task.defer(function()
     end
 end)
 
-local Tab = Window:CreateTab("Hileler Axii - Perime", 4483362458)
+local Tab = Window:CreateTab("Tricks Axii - Perime", 4483362458)
 
 local Toggle = Tab:CreateToggle({
     Name = "No car damage",
@@ -85,7 +85,7 @@ local Slider = Tab:CreateSlider({
     Name = "Car Acceleration Value",
     Range = {0, 10000},
     Increment = 1,
-    Suffix = "Hızlanma değeri",
+    Suffix = "Acceleration value",
     CurrentValue = 10,
     Flag = "Slider1",
     Callback = function(Value)
@@ -100,7 +100,7 @@ local Slider = Tab:CreateSlider({
     Name = "Maximum speed",
     Range = {0, 10000},
     Increment = 1,
-    Suffix = "Hız",
+    Suffix = "Speed",
     CurrentValue = 10,
     Flag = "Slider1",
     Callback = function(Value)
@@ -115,7 +115,7 @@ local Slider = Tab:CreateSlider({
     Name = "Backwards speed",
     Range = {0, 10000},
     Increment = 1,
-    Suffix = "Hız",
+    Suffix = "Speed",
     CurrentValue = 10,
     Flag = "Slider1",
     Callback = function(Value)
